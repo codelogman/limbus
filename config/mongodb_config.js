@@ -1,0 +1,1 @@
+// MongoDB configuration script to setup sharding and replication
