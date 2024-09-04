@@ -32,6 +32,7 @@ The system is structured into several key components that facilitate its setup, 
 ### Web Frontend
 - A basic web user interface to visualize and interact with the system.
 
+
 ## Deployment
 The project uses Docker to facilitate deployment and management. To start the system:
 
