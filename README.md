@@ -1,39 +1,39 @@
 # Neural Network System: Limbus Data
 
-## Descripción del Proyecto
-Este proyecto desarrolla un sistema de motor de base de datos avanzado integrado con funcionalidades de sinapsis, diseñado para simular procesos neuronales en la gestión y almacenamiento de datos. El sistema utiliza C++ para el backend y MongoDB para la gestión de datos, con capacidades extendidas de sharding y replicación para mejorar la escalabilidad y la disponibilidad.
+## Project Description
+This project develops an advanced database engine integrated with synaptic functionalities, designed to simulate neural processes in data management and storage. The system uses C++ for the backend and MongoDB for data management, with extended sharding and replication capabilities to enhance scalability and availability.
 
-## Estructura del Proyecto
-El sistema está estructurado en varios componentes clave que facilitan su configuración, desarrollo y despliegue:
+## Project Structure
+The system is structured into several key components that facilitate its setup, development, and deployment:
 
-- **/src**: Contiene los archivos C++ que implementan la lógica del motor de base de datos y las operaciones neuronales.
-- **/include**: Alberga las librerías y headers, incluyendo `json.hpp` para la manipulación de JSON en C++.
-- **/scripts**: Incluye scripts para configuración y mantenimiento, como `setup_mongo.sh` para configurar MongoDB.
-- **/api**: Código Python para la API del backend y CLI, facilitando la interacción programática con el sistema.
-- **/web**: Frontend compuesto por HTML y JavaScript para interacción del usuario.
-- **Dockerfile y docker-compose.yml**: Utilizados para la contenerización y orquestación del despliegue del sistema.
-- **/config**: Configuraciones específicas, como `mongodb_config.js` para los ajustes de MongoDB.
-- **README.md**: Documentación del proyecto.
+- **/src**: Contains the C++ files implementing the database engine logic and neural operations.
+- **/include**: Houses libraries and headers, including `json.hpp` for JSON manipulation in C++.
+- **/scripts**: Includes scripts for setup and maintenance, such as `setup_mongo.sh` for configuring MongoDB.
+- **/api**: Python code for the backend API and CLI, enabling programmatic interaction with the system.
+- **/web**: Frontend composed of HTML and JavaScript for user interaction.
+- **Dockerfile and docker-compose.yml**: Used for containerization and orchestration of system deployment.
+- **/config**: Specific configurations, such as `mongodb_config.js` for MongoDB settings.
+- **README.md**: Project documentation.
 
-## Características Principales
+## Main Features
 
-### Motor de Base de Datos Neuronal
-- Implementa un modelo de datos basado en neuronas y sinapsis para simular interacciones neuronales.
-- Desarrollado en C++, proporciona una base sólida y eficiente para operaciones complejas de datos.
+### Neuronal Database Engine
+- Implements a neuron and synapse-based data model to simulate neural interactions.
+- Developed in C++, providing a robust and efficient foundation for complex data operations.
 
-### Integración con MongoDB
-- Utiliza MongoDB para almacenar y gestionar estructuras de datos complejas con eficiencia.
-- Configurado con sharding y replicación para garantizar la escalabilidad y la alta disponibilidad de los datos.
+### MongoDB Integration
+- Uses MongoDB to efficiently store and manage complex data structures.
+- Configured with sharding and replication to ensure data scalability and high availability.
 
-### API y CLI
-- Incluye una API desarrollada en Flask para facilitar las interacciones backend.
-- Una interfaz de línea de comandos (CLI) permite operaciones manuales y automatizadas.
+### API and CLI
+- Includes a Flask-developed API to facilitate backend interactions.
+- A command-line interface (CLI) allows for manual and automated operations.
 
-### Frontend Web
-- Una interfaz de usuario web básica para visualizar y interactuar con el sistema.
+### Web Frontend
+- A basic web user interface to visualize and interact with the system.
 
-## Despliegue
-El proyecto utiliza Docker para facilitar el despliegue y la gestión. Para iniciar el sistema:
+## Deployment
+The project uses Docker to facilitate deployment and management. To start the system:
 
 ```bash
 docker-compose up --build
